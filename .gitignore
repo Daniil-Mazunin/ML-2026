@@ -18,7 +18,6 @@ env/
 
 # Project specific
 kt_dir/
-*.h5
 *.pb
 
 # Environment
