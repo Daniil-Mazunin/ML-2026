@@ -327,7 +327,7 @@ elif page == "Предсказание моделей ML":
         "ML3: LightGBM": ("models/lgb_model.txt", "lgb"),
         "ML4: Bagging": ("models/bag_model.pkl", "raw"),
         "ML5: Stacking": ("models/stack_model.pkl", "raw"),
-        "ML6: Neural Network (KerasTuner)": ("models/ml6_model.keras", "keras")
+        "ML6: Neural Network (KerasTuner)": ("models/ml6_model.h5", "keras")
     }
     
     model_choice = st.selectbox("Выберите модель ML:", list(model_options.keys()))
@@ -472,4 +472,3 @@ elif page == "Предсказание моделей ML":
                 st.error(f"Файл модели '{file_name}' не найден в рабочей директории приложения.")
             except Exception as e:
                 st.error(f"Произошла непредвиденная ошибка при вычислении: {e}")
-                
