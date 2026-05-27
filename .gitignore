@@ -1,70 +1,30 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
 *.egg
 *.egg-info/
-dist/
-build/
 
 # Virtual Environment
 venv/
 env/
 .venv/
-ENV/
-env.bak/
-venv.bak/
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 .DS_Store
-Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
-
-# Data files (если данные большие - раскомментируйте)
-*.csv
-*.xlsx
-*.pkl
+# Project specific
+kt_dir/
+data/
+models/
 *.h5
 *.pb
-*.joblib
-data/
-datasets/
-models/
 
-# Logs and temporary files
-*.log
-*.tmp
-.cache/
-.pytest_cache/
-
-# Environment variables
+# Environment
 .env
-.env.local
-.env.*.local
 
-# ML specific
-*.ckpt
-*.pth
-*.onnx
-mlruns/
-wandb/
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Testing
-.coverage
-htmlcov/
-.tox/
-
-# Package managers
-pip-log.txt
-pip-delete-this-directory.txt
+# Logs
+*.log
